@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+    background-color:#EFE2DE;
+    margin: 0px 0px 0px 0px;
+    color:#243F62;
+}
+
+.header{
+    display:flex;
+    background-color: white;
+    font-family:serif;
+    font-size: 2rem;
+    height:15%;
+    width:100%;
+    margin-top:0px;
+    border: 2px solid #000;
+}
+
+.head1{
+    position: relative;
+    display: flex;
+    height:100%;
+    width:30%;
+    padding-left: 80px;
+}
+
+.head1 a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.head2{
+    position: relative;
+    display: flex;
+    height:100%;
+    width:30%;
+    padding-left: 80px;
+    border: 1px solid #000;
+}
+
+.head2 a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.head3{
+    position: relative;
+    display: flex;
+    height:100%;
+    width:30%;
+    padding-left: 100px;
+}
+
+.head3 a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.head4{
+    position: relative;
+    display: flex;
+    height:100%;
+    width:30%;
+    padding-left: 100px;
+    border: 1px solid #000;
+}
+
+.head4 a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.head5{
+    position: relative;
+    display: flex;
+    height:100%;
+    width:30%;
+    padding-left: 100px;
+}
+
+.head5 a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.firsttext{
+    font-family:serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#wrapper-grid{
+	display: grid;
+	gap:10%;
+    height:50%;
+	grid-template-columns:1fr 1fr ;
+    grid-template-rows: auto;
+	margin:50px 150px ;
+	padding:0px;
+	text-align:center;
+	font-size:1.5rem;
+}
+
+.item{
+	background:whitesmoke;
+	position:relative;
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+.item a{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+}
+
+.item{
+	border-radius:30px;
+    border:solid 2px black;
+}
+
+.item a:hover{
+	opacity:0.2;
+	background-color:skyblue;
+}

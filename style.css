@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+  html, body {
+    height: 100%;
+    background-color:#EFE2DE;
+    margin: 0px 0px 0px 0px;
+    color:#243F62;
+  }
+
+  .header{
+    display:flex;
+    background-color: white;
+    font-family:serif;
+    font-size: 2rem;
+    height:15%;
+    width:40%;
+    margin-top:0px;
+    margin-left:30%;
+    border: 2px solid #000;
+  }
+  .right{
+    display:flex;
+    height:100%;
+    padding-left:20px;
+    padding-top:0px;
+    line-height: 35px;
+    color:#243F62;
+    text-align: center;
+  }
+
+  .writerlink{
+    width:34%;
+    height: 100%;
+    text-decoration:none;
+    
+  }
+  
+  .link{
+    text-decoration:none;
+  }
+
+  .imgtext:hover{
+    opacity:0.5;
+  }
+
+  .center{
+    position: relative;
+    display:flex;
+    width:22%;
+    padding-left:60px;
+    border: 1px solid #000;
+  }
+
+  .center a{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .left{
+    display:flex;
+    width:30%;
+    line-height: 35px;
+    padding-left:30px;
+    text-align: center;
+  }
+  
+  .left a{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%
+  }
+  
+  .textbox1{
+    font-family: serif;
+    font-size: 4rem;
+    color:#243F62;
+    height:30%;
+    width:25%;
+    top:-650px;
+    left:30px;
+    position:relative;
+    text-align: center;
+  }
+
+  .textbox2{
+    font-family:serif;
+    font-size:4rem;
+    color:#243F62;
+    height:30%;
+    width:25%;
+    top:-700px;
+    left:75%;
+    position:relative;
+    text-align: center;
+    line-height:85px ;
+  }
+
+  .iwate{
+    font-size: 5.5rem;
+  }
+
+  #box{
+    height:84.6%; 
+    width: 40%;
+    margin-top: 0px;
+    margin-left:30%;                
+    background: white;
+    border: 1px solid #000;      
+    overflow-y: scroll;
+  }
+  
+  #box::-webkit-scrollbar{
+    display: none;
+  }
+
+  .textbox{
+    font-family: serif;
+    font-size: 3rem;
+    color:#243F62;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:130px;
+    padding-bottom:170px ;
+  }
+
+  .imgtext{
+    position:relative;
+  }
+
+  .imgtext p{
+    position:absolute;
+    color:white;
+    font-family: serif;
+    font-size: 4rem;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+
+  .imgtext img{
+    width:100%;
+  }
+
+  .topB{
+    background-color: gray;
+    font-size: 3rem;
+    font-family: serif;
+    width: 60%;
+    margin-left:22%;
+    margin-bottom:50px;
+    text-align: center;
+  }
+
+/* 紹介ページ　遷移先 */
+  .comment{
+    font-family: serif;
+    font-size: 1.4rem;
+    color:#243F62;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:130px;
+    padding-bottom:170px ;
+  }
+
+  .writercomment{
+    font-family: serif;
+    font-size: 1.4rem;
+    color:#243F62;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:130px;
+    padding-bottom:50px ;
+  }
+
+  
